@@ -1,9 +1,11 @@
 package com.example.proyectofinal
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.ui.AppBarConfiguration
 import com.example.proyectofinal.databinding.ActivityContactoBinding
+import kotlinx.android.synthetic.main.activity_contacto.*
 
 class Contacto : AppCompatActivity() {
 
