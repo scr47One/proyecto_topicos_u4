@@ -14,7 +14,7 @@
         android:layout_marginTop="102dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="99dp"
-        android:text="Estuche #002"
+        android:text="Muñeca Yucatan"
         android:textColor="#673AB7"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/textView11"
@@ -34,15 +34,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/estuche2" />
+        app:srcCompat="@drawable/rm__2_" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="291dp"
-        android:layout_height="60dp"
+        android:layout_height="140dp"
         android:layout_marginTop="220dp"
         android:background="#AF8BED"
-        android:text="Soporte para pincel, bolsa de tela con soporte para bolsa enrollable para pincel de artista (cepillos NO incluidos)"
+        android:text="Presume su traje en color blanco con encaje en cuello y parte baja del mismo, asi como con detalles en liston con diferentes texturas o bordados en bluson y falda. Peinada a dos trenzas entrelazas decoradas con liston. Sus accesorios: aretes y collar. Porta reboso que combina con el liston de su peinado y abanico de mimbre decorado."
         android:textAlignment="center"
         android:textColor="#201515"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:text="Presio: $120.00 MX"
+        android:text="Precio: $150.00 MX"
         android:textColor="#150E0E"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
@@ -94,7 +94,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:text="Proteccion al comprador de 75 dias"
+        android:text="Proteccion al comprador de 15 dias"
         android:textColor="#150E0E"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
@@ -128,7 +128,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="20dp"
-        android:text="Tamaño: unos 40 x 33 cm"
+        android:text="Tamaño: base 15 cm altura: 25"
         android:textColor="#150E0E"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />

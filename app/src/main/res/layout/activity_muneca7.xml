@@ -10,11 +10,11 @@
         android:id="@+id/boton5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="56dp"
         android:text="Regresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="120dp"
-        android:text="Estuche #007"
+        android:text="Muñeca Oaxaca"
         android:textColor="#673AB7"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +35,7 @@
         android:layout_height="71dp"
         android:layout_marginTop="20dp"
         android:background="#B5E4EA"
-        android:text="Juego de brochas de pintura con estuche para pinceles (16 unidades, acrílico, acuarela, gouache, pintura al óleo, tempera y pintura corporal"
+        android:text="Viste bello traje a dos piezas, un huipil de manta claro recto con decoracion en los costados y en el centro, peinada con cabello recogido y pelo cubierto por rosas de distintos colores Accesorios: aretes y collar."
         android:textColor="#100F0F"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="Sin complicaciones garantía de devolución de dinero."
+        android:text="Precio: $250.00 MX"
         android:textColor="#100F0F"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView40" />
@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Costo: $1200.00 MX"
+        android:text="Dimensiones: 20 x 25 cm"
         android:textColor="#100F0F"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView41" />
@@ -66,21 +66,48 @@
         android:layout_width="201dp"
         android:layout_height="171dp"
         android:layout_marginStart="22dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="44dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView39"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/estuche7" />
+        app:srcCompat="@drawable/rm__7_" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="244dp"
-        android:layout_height="151dp"
-        android:layout_marginStart="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView42"
-        app:srcCompat="@drawable/t" />
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material: Tela y plastico"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disponibles: 30 piezas"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envio gratis"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proteccion al comprador de 15 dias"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="435dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

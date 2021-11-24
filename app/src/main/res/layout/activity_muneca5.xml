@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="96dp"
-        android:text="Estuche #005"
+        android:text="Muñeca Mexicana"
         android:textColor="#3F51B5"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,14 +21,13 @@
     <TextView
         android:id="@+id/textView30"
         android:layout_width="378dp"
-        android:layout_height="101dp"
-        android:layout_marginTop="12dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
         android:background="#C0E8ED"
-        android:text="Conjunto de pinceles para artistas - 15 pinceles de diferentes tamaños para diferentes estilos de pintura. Regalo perfecto para artistas, adultos y niños. Cuchillo para pintar y esponja para acuarela gratis"
-        android:textAlignment="center"
+        android:text="Es la representacion de nuestra bandera portando el escudo de el aguila devorando una serpiente, peinada a dos trenzas adornadas con moños. Accesorios: collar"
         android:textColor="#0E0C0C"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        tools:layout_editor_absoluteX="-5dp" />
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/textView31"
@@ -36,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="20dp"
-        android:text="Precio: $559.00 MX , emvio gratis"
+        android:text="Precio: $150.00 MX"
         android:textColor="#0E0C0C"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView30" />
@@ -46,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
-        android:text="Color negro"
+        android:text="Dimensiones: 20 x 30 cm"
         android:textColor="#0E0C0C"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView31" />
@@ -59,17 +58,7 @@
         android:layout_marginEnd="28dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/estuche5" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="115dp"
-        android:layout_height="105dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.45"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView32"
-        app:srcCompat="@drawable/_036" />
+        app:srcCompat="@drawable/rm__5_" />
 
     <Button
         android:id="@+id/boton3"
@@ -80,4 +69,40 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material: Porcelana"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disponibles: 20"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envio gratis"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proteccion al comprador por 15 dias"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="372dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

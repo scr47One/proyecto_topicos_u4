@@ -6,30 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".muneca4">
 
+
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="65dp"
-        android:layout_marginBottom="31dp"
-        android:text="Estuche #004"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="112dp"
+        android:text="Muñeca Chiapas"
         android:textColor="#673AB7"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView4"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="341dp"
-        android:layout_height="72dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Descripción: De nailon negro con una cremallera reúnen solidez y elegancia. Pueden contener pinceles cortos o largos hasta 34 cm."
-        android:textAlignment="center"
+        android:text="Dimensiones: 15 x 30 cm"
+
         android:textColor="#070707"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
 
     <TextView
         android:id="@+id/textView26"
@@ -37,8 +37,7 @@
         android:layout_height="78dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="Protege y transporta sus pinceles de manera cómoda gracias a este modelo de estuche a precio imbatible."
-        android:textAlignment="center"
+        android:text="Luciendo su vestido con amplia falda y camisa de tul colorida con un hermoso peinado de dos trenzas sujetas a mitad de la cabeza con liston. Accesorios: aretes y collar."
         android:textColor="#070707"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
@@ -48,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Presio: $200.00 MX"
+        android:text="Precio: $170.00 MX"
         android:textColor="#070707"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView27" />
@@ -68,11 +67,47 @@
         android:id="@+id/imageView4"
         android:layout_width="227dp"
         android:layout_height="148dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="31dp"
-        android:layout_marginEnd="92dp"
+        android:layout_marginStart="130dp"
+
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView25"
-        app:srcCompat="@drawable/estuche4" />
+        app:srcCompat="@drawable/rm__4_"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material: Tela"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disponibles: 25 piezas"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envio gratis"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proteccion al comprador de 15 dias"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="380dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

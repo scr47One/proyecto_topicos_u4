@@ -11,12 +11,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="123dp"
+        android:layout_marginTop="112dp"
         android:layout_marginEnd="29dp"
-        android:text="Estuche #009"
+        android:text="Muñeca San Luis Potosi"
         android:textColor="#673AB7"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,16 +25,14 @@
         android:id="@+id/textView49"
         android:layout_width="371dp"
         android:layout_height="84dp"
-        android:layout_marginTop="4dp"
         android:layout_marginEnd="20dp"
         android:background="#B7EAF1"
-        android:text="La paleta de plástico tiene 6 campos de mezcla, es óptima para principiantes y profesionales y se puede utilizar para cualquier tipo de pintura."
-        android:textAlignment="center"
+        android:text="Presuminedo su traje blanco, de falda larga y capa con grecas y detalles de diversos colores y texturas. Peinada a dps trenzas con moño, su cabeza es semi cubierta con un tocado que combina con su traje y le cubre las orejas. Sus accesorios: aretes y collar. Porta una canasta de mimbre con fruta."
         android:textColor="#0B0A0A"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+        tools:layout_editor_absoluteY="229dp" />
 
     <TextView
         android:id="@+id/textView50"
@@ -45,51 +44,69 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView49" />
 
-    <TextView
-        android:id="@+id/textView51"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="196dp"
-        android:layout_marginEnd="16dp"
-        android:text="Set De 12 Pinceles De Acuarela Acrílico Arte Pintura Sintéti"
-        android:textColor="#0B0A0A"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/boton7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginBottom="16dp"
         android:text="Regresar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="173dp"
         android:layout_height="147dp"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="67dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="42dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView51"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView48"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/estuche10" />
+        app:srcCompat="@drawable/rm__10_" />
 
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="361dp"
-        android:layout_height="136dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView50"
-        app:srcCompat="@drawable/t2" />
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dimensiones: 20 x 40 cm"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material: Tela y plastico"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disponibles: 30"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envio gratis"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proteccion al comprador de 15 dias"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="417dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
