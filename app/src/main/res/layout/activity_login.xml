@@ -58,6 +58,26 @@ android:layout_marginTop="50dp"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="16dp" />
 
+        <Button
+            android:id="@+id/inicio_sesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:backgroundTint="@color/purple_500"
+            android:text="Iniciar sesion"
+            android:textColor="@color/white"
+            app:iconTint="@color/purple_200" />
+
+        <Button
+            android:id="@+id/cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:backgroundTint="@color/teal_700"
+            android:text="Cancelar" />
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
@@ -71,25 +91,6 @@ android:layout_marginTop="50dp"
         android:padding="10dp"
         tools:ignore="MissingConstraints">
 
-        <Button
-            android:id="@+id/inicio_sesion"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/purple_500"
-            android:text="Iniciar sesion"
-            android:textColor="@color/white"
-            app:iconTint="@color/purple_200" />
-
-        <Button
-            android:id="@+id/cancelar"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/teal_700"
-            android:text="Cancelar" />
     </LinearLayout>
 
 

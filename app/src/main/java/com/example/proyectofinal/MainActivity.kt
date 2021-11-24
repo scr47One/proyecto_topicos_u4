@@ -23,12 +23,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         inicio_sesion.setOnClickListener {
-            val intent: Intent = Intent(this, inicio_sesion::class.java)
+            val intent: Intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }
         contacto.setOnClickListener {
-            val intent: Intent = Intent(this, contacto::class.java)
+            val intent: Intent = Intent(this, Contacto::class.java)
             startActivity(intent)
             finish()
         }
