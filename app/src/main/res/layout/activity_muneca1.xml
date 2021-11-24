@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="16dp"
-        android:text="Estuchera #001"
+        android:text="Muñeca CDMX "
         android:textColor="#933CC8"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/imageView"
@@ -26,7 +26,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="56dp"
         android:background="#91BEE1"
-        android:text="Bolsa de almacenamiento      de bolígrafos   para   Nail Art, estuche protector de pinceles para uñas a prueba   de   agua,   bolsa    de almacenamiento para    pinceles de uñas, estuche para    bolsa de maquillaje cosmético    de    gran capacidad"
+        android:text="Porta saco y falda en terciopelo negro, decorado con espiguilla dorada, peinada a dos trenzas. Sus accesorios: aretes y moño tricolor al cuello como corbata. Porta sombrero y reboso de colores."
         android:textAlignment="center"
         android:textColor="#0E0808"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,7 +59,7 @@
         android:layout_width="312dp"
         android:layout_height="37dp"
         android:layout_marginStart="40dp"
-        android:text="Dimensiones: 15 cm de base x 21 cm de altura x 5 cm de profundidad, color negro"
+        android:text="Dimensiones: 15 cm de base x 45 cm de altura x 8 cm de profundidad, color negro"
         android:textColor="#070707"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
@@ -69,7 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:text="Proteccion al comprador de 75 dias"
+        android:text="Proteccion al comprador de 15 dias"
         android:textColor="#070707"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -80,7 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="12dp"
-        android:text="Presio:  $180.00 MX"
+        android:text="Presio:  $350.00 MX"
         android:textColor="#070707"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -90,7 +90,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:text="Material: Nylon"
+        android:text="Material: Nylon y manta"
         android:textColor="#070707"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -118,5 +118,5 @@
         app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/estuche1" />
+        app:srcCompat="@drawable/rm__1_" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,15 +19,15 @@
             android:exported="false"
             android:label="@string/title_activity_login" />
         <activity android:name=".Registro" />
-        <activity android:name=".estucje7" />
-        <activity android:name=".Estuchera2" />
-        <activity android:name=".estuche9" />
-        <activity android:name=".estuche8" />
-        <activity android:name=".estuche6" />
-        <activity android:name=".estuche5" />
-        <activity android:name=".estuche4" />
-        <activity android:name=".Estuche3" />
-        <activity android:name=".esteche" />
+        <activity android:name=".muneca7" />
+        <activity android:name=".muneca2" />
+        <activity android:name=".muneca9" />
+        <activity android:name=".muneca8" />
+        <activity android:name=".muneca6" />
+        <activity android:name=".muneca5" />
+        <activity android:name=".muneca4" />
+        <activity android:name=".Muneca3" />
+        <activity android:name=".muneca1" />
         <activity android:name=".Catalogo" />
         <activity android:name=".MainActivity" >
             <intent-filter>

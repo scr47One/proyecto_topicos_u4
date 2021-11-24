@@ -17,55 +17,55 @@ class Catalogo : AppCompatActivity() {
         }
 
         boton1.setOnClickListener {
-            val intent: Intent = Intent(this, esteche::class.java)
+            val intent: Intent = Intent(this, muneca1::class.java)
             startActivity(intent)
             finish()
         }
 
         boton2.setOnClickListener {
-            val intent: Intent = Intent(this, Estuchera2::class.java)
+            val intent: Intent = Intent(this, muneca2::class.java)
             startActivity(intent)
             finish()
         }
 
         boton3.setOnClickListener {
-            val intent: Intent = Intent(this, Estuche3::class.java)
+            val intent: Intent = Intent(this, Muneca3::class.java)
             startActivity(intent)
             finish()
         }
 
         boton4.setOnClickListener {
-            val intent: Intent = Intent(this, estuche4::class.java)
+            val intent: Intent = Intent(this, muneca4::class.java)
             startActivity(intent)
             finish()
         }
 
         boton5.setOnClickListener {
-            val intent: Intent = Intent(this, estuche5::class.java)
+            val intent: Intent = Intent(this, muneca5::class.java)
             startActivity(intent)
             finish()
         }
 
         boton6.setOnClickListener {
-            val intent: Intent = Intent(this, estuche6::class.java)
+            val intent: Intent = Intent(this, muneca6::class.java)
             startActivity(intent)
             finish()
         }
 
         boton7.setOnClickListener {
-            val intent: Intent = Intent(this, estucje7::class.java)
+            val intent: Intent = Intent(this, muneca7::class.java)
             startActivity(intent)
             finish()
         }
 
         boton8.setOnClickListener {
-            val intent: Intent = Intent(this, estuche8::class.java)
+            val intent: Intent = Intent(this, muneca8::class.java)
             startActivity(intent)
             finish()
         }
 
         boton9.setOnClickListener {
-            val intent: Intent = Intent(this, estuche9::class.java)
+            val intent: Intent = Intent(this, muneca9::class.java)
             startActivity(intent)
             finish()
         }
