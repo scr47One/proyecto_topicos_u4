@@ -15,7 +15,7 @@
             android:label="@string/title_activity_contacto"
             android:theme="@style/Theme.ProyectoFinal.NoActionBar" />
         <activity
-            android:name=".ui.login.LoginActivity"
+            android:name=".LoginActivity"
             android:exported="false"
             android:label="@string/title_activity_login" />
         <activity android:name=".Registro" />

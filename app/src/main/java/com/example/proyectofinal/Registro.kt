@@ -12,7 +12,7 @@ class Registro : AppCompatActivity() {
         setContentView(R.layout.activity_registro)
 
         registrarse.setOnClickListener {
-            val intent: Intent = Intent(this, MainActivity::class.java)
+            val intent: Intent = Intent(this, Catalogo::class.java)
             startActivity(intent)
         }
 

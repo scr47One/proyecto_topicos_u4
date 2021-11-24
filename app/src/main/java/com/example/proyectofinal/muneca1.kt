@@ -15,6 +15,7 @@ class muneca1 : AppCompatActivity() {
         salir.setOnClickListener {
             val intent: Intent = Intent(this, Catalogo::class.java)
             startActivity(intent)
+            finish();
         }
     }
 }

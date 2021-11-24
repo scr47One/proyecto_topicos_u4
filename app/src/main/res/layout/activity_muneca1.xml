@@ -37,7 +37,6 @@
         android:layout_marginEnd="56dp"
         android:background="#91BEE1"
         android:text="Porta saco y falda en terciopelo negro, decorado con espiguilla dorada, peinada a dos trenzas. Sus accesorios: aretes y moño tricolor al cuello como corbata. Porta sombrero y reboso de colores."
-        android:textAlignment="center"
         android:textColor="#0E0808"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

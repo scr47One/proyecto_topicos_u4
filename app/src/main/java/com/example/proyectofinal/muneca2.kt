@@ -13,6 +13,7 @@ class muneca2 : AppCompatActivity() {
         button2.setOnClickListener {
             val intent: Intent = Intent(this, Catalogo::class.java)
             startActivity(intent)
+            finish();
         }
     }
 }
