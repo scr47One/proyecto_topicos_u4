@@ -25,14 +25,16 @@
         android:id="@+id/textView49"
         android:layout_width="371dp"
         android:layout_height="84dp"
+        android:layout_marginTop="26dp"
         android:layout_marginEnd="20dp"
         android:background="#B7EAF1"
         android:text="Presuminedo su traje blanco, de falda larga y capa con grecas y detalles de diversos colores y texturas. Peinada a dps trenzas con moño, su cabeza es semi cubierta con un tocado que combina con su traje y le cubre las orejas. Sus accesorios: aretes y collar. Porta una canasta de mimbre con fruta."
         android:textColor="#0B0A0A"
+        app:layout_constraintBottom_toTopOf="@+id/textView50"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="229dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
 
     <TextView
         android:id="@+id/textView50"
@@ -60,9 +62,11 @@
         android:id="@+id/imageView11"
         android:layout_width="173dp"
         android:layout_height="147dp"
+        android:layout_marginStart="14dp"
         android:layout_marginTop="56dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView48"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/rm__10_" />
 
