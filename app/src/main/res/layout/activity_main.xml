@@ -4,85 +4,139 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9FA8DA"
+    android:background="@color/teal_200"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="116dp"
-        android:layout_height="87dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="44dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/catalogo" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="116dp"
-        android:layout_height="87dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="44dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/registro" />
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:padding="20dp"
+     android:orientation="vertical"
+     android:weightSum="2">
+     <TextView
+         android:id="@+id/textView"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Muñequitas MX"
+         android:textColor="#191414"
+         android:textSize="30sp"
+         android:textStyle="bold"
+         android:textAlignment="center"
+         android:layout_weight="1"/>
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:weightSum="3"
+         android:layout_weight="1">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="116dp"
-        android:layout_height="87dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="44dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/quejar" />
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:padding="20dp"
+             android:weightSum="2"
+             app:layout_constraintVertical_weight="1">
 
-    <Button
-        android:id="@+id/registro"
-        android:layout_width="140dp"
-        android:layout_height="94dp"
-        android:layout_marginTop="52dp"
-        android:background="#80CBC4"
-        android:text="Registro de Clientes"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+             <Button
+                 android:id="@+id/registro"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:backgroundTint="@color/teal_700"
+                 android:text="Registro"
+                 app:iconTint="@color/teal_700" />
 
-    <Button
-        android:id="@+id/contacto"
-        android:layout_width="141dp"
-        android:layout_height="89dp"
-        android:layout_marginTop="36dp"
-        android:background="#80CBC4"
-        android:text="Contacto"
-        app:layout_constraintEnd_toStartOf="@+id/imageView3"
-        app:layout_constraintHorizontal_bias="0.527"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/catalogo" />
+             <ImageView
+                 android:id="@+id/imageView2"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 app:srcCompat="@drawable/registro" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="243dp"
-        android:layout_height="42dp"
-        android:text="Pinceles Tiffanyy"
-        android:textColor="#191414"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="58dp" />
 
-    <Button
-        android:id="@+id/catalogo"
-        android:layout_width="139dp"
-        android:layout_height="89dp"
-        android:layout_marginTop="32dp"
-        android:background="#80CBC4"
-        android:text="Catalogo de Productos"
-        app:layout_constraintEnd_toStartOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.517"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registro" />
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:padding="20dp"
+             android:weightSum="2"
+             app:layout_constraintVertical_weight="1">
+
+             <Button
+                 android:id="@+id/inicio_sesion"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:backgroundTint="@color/teal_700"
+                 android:text="Inicio sesión"
+                 app:iconTint="@color/teal_700" />
+
+             <ImageView
+                 android:id="@+id/imageView4"
+                 android:layout_width="match_parent"
+                 android:layout_height="74dp"
+                 android:layout_weight="1"
+                 app:srcCompat="?attr/actionModePasteDrawable" />
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:padding="20dp"
+             android:weightSum="2"
+             app:layout_constraintVertical_weight="1">
+
+
+             <Button
+                 android:id="@+id/catalogo"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:backgroundTint="@color/teal_700"
+                 android:text="Catalogo" />
+
+             <ImageView
+                 android:id="@+id/imageView"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 app:srcCompat="@drawable/catalogo" />
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:padding="20dp"
+             android:weightSum="2"
+             app:layout_constraintVertical_weight="1">
+             <Button
+                 android:id="@+id/contacto"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:backgroundTint="@color/teal_700"
+                 android:text="Contacto" />
+
+             <ImageView
+                 android:id="@+id/imageView3"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 app:srcCompat="@drawable/quejar"
+                 android:layout_weight="1"/>
+
+
+         </LinearLayout>
+     </LinearLayout>
+ </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

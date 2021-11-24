@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/scr47/Desktop/ProyectoFinal/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.17269076305220885" />
+        <entry key="..\:/Users/scr47/Desktop/ProyectoFinal/app/src/main/res/layout-w936dp/activity_login.xml" value="0.2015625" />
+        <entry key="..\:/Users/scr47/Desktop/ProyectoFinal/app/src/main/res/layout/activity_contacto.xml" value="0.25" />
         <entry key="..\:/Users/scr47/Desktop/ProyectoFinal/app/src/main/res/layout/activity_esteche.xml" value="0.26875" />
+        <entry key="..\:/Users/scr47/Desktop/ProyectoFinal/app/src/main/res/layout/activity_login.xml" value="0.26875" />
         <entry key="..\:/Users/scr47/Desktop/ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/scr47/Desktop/ProyectoFinal/app/src/main/res/layout/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Users/scr47/Desktop/ProyectoFinal/app/src/main/res/layout/content_contacto.xml" value="0.26875" />
+        <entry key="..\:/Users/scr47/Desktop/ProyectoFinal/app/src/main/res/layout/fragment_first.xml" value="0.26875" />
+        <entry key="..\:/Users/scr47/Desktop/ProyectoFinal/app/src/main/res/layout/fragment_second.xml" value="0.26875" />
       </map>
     </option>
   </component>
