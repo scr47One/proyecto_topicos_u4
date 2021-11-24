@@ -14,6 +14,11 @@ private lateinit var binding: ActivityContactoBinding
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_contacto)
 
+        cancelar.setOnClickListener {
+            val intent: Intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
 
